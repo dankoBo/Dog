@@ -12,11 +12,19 @@ const Global = createGlobalStyle`
 	}
 `
 
+const StyledRectangleImage = styled.img`
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -1;
+`
+
 const AppWrapper = styled.div`
+	position: relative;
 	width: 1500px;
 	height: 100vh;
 	margin: 0 auto;
 	border: 1px solid blue;
 `
 
-export { Global, AppWrapper }
+export { Global, AppWrapper, StyledRectangleImage }

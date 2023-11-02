@@ -1,35 +1,24 @@
 import { RxHamburgerMenu, RxCross1 } from 'react-icons/rx';
+import BurgerMenuList from '../burgerMenuList/BurgerMenuList'
+import { BurgerMenuContainer, BurgerMenuIcon} from './BurgerMenu.styled'
+import { useDispatch, useSelector } from 'react-redux';
+import { toggleMenu, closeMenu } from '../../../store/burgerSlice';
 
 function BurgerMenu() {
-	const [isOpen, setIsOpen] = useState(false);
-
-	function closeMenu() {
-		setIsOpen(false)
-	}
-	function toggleMenu() {
-		setIsOpen(!isOpen)
-	}
-	console.log(isOpen);
+	const dispatch = useDispatch();
+    const isOpen = useSelector((state) => state.burger.isOpen);
+	
 	return (
-		<div>
-			<div>
-				<RxHamburgerMenu onClick={toggleMenu} />
-			</div>
-			<ul>
-				<li>
-					<a onClick={closeMenu} href="/">Item</a>
-				</li>
-				<li>
-					<a onClick={closeMenu} href="/products">Item</a>
-				</li>
-				<li>
-					<a onClick={closeMenu} href="/info">Item</a>
-				</li>
-				<li>
-					<a onClick={closeMenu} href="/about">Item</a>
-				</li>
-			</ul>
-		</div>
+		<BurgerMenuContainer>
+			<BurgerMenuIcon>
+				{
+					isOpen ? <RxCross1 onClick={() => dispatch(toggleMenu())} /> : <RxHamburgerMenu onClick={() => dispatch(toggleMenu())} />
+				}
+			</BurgerMenuIcon>
+			{
+				isOpen ? <BurgerMenuList closeMenu={closeMenu} /> : ''
+			}
+		</BurgerMenuContainer>
 	)
 }
 
