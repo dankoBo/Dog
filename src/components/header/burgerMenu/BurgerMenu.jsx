@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { RxHamburgerMenu, RxCross1 } from 'react-icons/rx';
 
 function BurgerMenu() {
