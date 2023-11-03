@@ -22,7 +22,7 @@ const StyledRectangleImage = styled.img`
 const AppWrapper = styled.div`
 	position: relative;
 	width: 1500px;
-	height: 100vh;
+	height: 100%;
 	margin: 0 auto;
 	border: 1px solid blue;
 `

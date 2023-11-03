@@ -27,11 +27,12 @@ const ProductImage = styled.div`
 
 const CardTitle = styled.h2`
 	width: 310px;
+	margin-top: 40px;
 	color: #170C04;
 	text-align: center;
 	font-size: 25px;
 	font-style: normal;
-	font-weight: 400;
+	font-weight: 900;
 	line-height: normal;
 `
 
