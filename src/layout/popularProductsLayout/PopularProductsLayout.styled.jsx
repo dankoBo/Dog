@@ -4,7 +4,6 @@ const PopularPorductsWrapper = styled.div`
 	width: 1140px;
 	height: 1150px;
 	margin: 110px auto 0;
-	border: 1px solid red;
 `
 
 const TitleSubtitleContainer = styled.div`
