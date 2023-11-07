@@ -6,6 +6,10 @@ import BestProductsLayout from './layout/bestProductsLayout/BestProductsLayout'
 import PopularProductsLayout from './layout/popularProductsLayout/PopularProductsLayout'
 import DogCareLayout from './layout/dogCareLayout/DogCareLayout'
 import SubscriptionLayout from './layout/subscriptionLayout/SubscriptionLayout'
+import GalleryLayout from './layout/galleryLayout/GalleryLayout'
+import TestimonialLayout from './layout/testimonialLayout/TestimonialLayout'
+import MessageLayout from './layout/messageLayout/MessageLayout'
+import FooterLayout from './layout/footerLayout/FooterLayout'
 
 function App() {
 	return (
@@ -18,6 +22,10 @@ function App() {
 			<PopularProductsLayout />
 			<DogCareLayout />
 			<SubscriptionLayout />
+			<GalleryLayout />
+			<TestimonialLayout />
+			<MessageLayout />
+			<FooterLayout />
 		</AppWrapper>
 	)
 }
