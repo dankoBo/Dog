@@ -4,7 +4,6 @@ const SubscriptionWrapper = styled.div`
 	width: 1140px;
 	height: 710px;
 	margin: 110px auto 0;
-	border: 1px solid red;
 `
 
 const SubscriptionTitle = styled.h2`

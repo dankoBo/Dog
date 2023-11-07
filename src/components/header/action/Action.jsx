@@ -1,6 +1,5 @@
 import { ActionContainer, ActionList} from './Action.styled'
 import { BsSearch, BsCart } from 'react-icons/bs'
-// import { RxHamburgerMenu } from 'react-icons/rx'
 import BurgerMenu from '../burgerMenu/BurgerMenu'
 
 function Action() {

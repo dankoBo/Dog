@@ -24,7 +24,6 @@ const AppWrapper = styled.div`
 	width: 1500px;
 	height: 100%;
 	margin: 0 auto;
-	border: 1px solid blue;
 `
 
 export { Global, AppWrapper, StyledRectangleImage }
