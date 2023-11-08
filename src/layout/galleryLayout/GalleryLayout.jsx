@@ -1,10 +1,8 @@
-import GallerySmallCard from '../../components/gallerySmallCard/GallerySmallCard';
 import { GalleryLayoutWrapper, GalleryTitile, GallerySubtitle, GallerySmallCardsContainer } from './GalleryLayout.styled'
 import redCollar from '../../assets/images/gallery/Red_collar.png'
 import blueCollar from '../../assets/images/gallery/Blue_collar.png'
 import flowerCollar from '../../assets/images/gallery/Flower_collar.png'
 import pinkCollar from '../../assets/images/gallery/Pink_collar.png'
-import GalleryBigCard from '../../components/galleryBigCard/GalleryBigCard';
 
 function GalleryLayout() {
 	return (
