@@ -1,10 +1,10 @@
-import headerLogo from '../../../assets/images/header/Logo.png'
+import LogoImage from '../../../interface/logoImage/LogoImage';
 import { LogoContainer, LogoText } from './Logo.styled'
 
 function Logo() {
 	return (
 		<LogoContainer>
-			<img src={headerLogo} alt="header logo" />
+			<LogoImage />
 			<LogoText>DOG</LogoText>
 		</LogoContainer>
 	);

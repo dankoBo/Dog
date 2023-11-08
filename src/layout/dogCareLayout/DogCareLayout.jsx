@@ -1,5 +1,5 @@
-import DogCareContent from '../../components/dogCareContent/DogCareContent';
-import DogCareImage from '../../components/dogCareImage/DogCareImage';
+import DogCareContent from '../../components/dogCare/dogCareContent/DogCareContent';
+import DogCareImage from '../../components/dogCare/dogCareImage/DogCareImage';
 import DogCareWrapper from './DogCareLayout.styled'
 
 function DogCareLayout() {

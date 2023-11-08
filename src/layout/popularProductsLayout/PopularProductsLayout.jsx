@@ -8,8 +8,8 @@ import {
 	PopularProductsDetails
 } from './PopularProductsLayout.styled'
 import DetailsLink from '../../interface/detailsLink/DetailsLink'
-import PopularProductsBigCard from '../../components/popularProductsBigCard/PopularProductsBigCard';
-import PopularProductsSmallCard from '../../components/popularProductsSmallcard/PopularProductsSmallCard'
+import PopularProductsBigCard from '../../components/popularProducts/popularProductsBigCard/PopularProductsBigCard';
+import PopularProductsSmallCard from '../../components/popularProducts/popularProductsSmallcard/PopularProductsSmallCard'
 import blueLeash from '../../assets/images/popular_products/Blue_leash.png'
 import reflectiveCollar from '../../assets/images/popular_products/Reflective_collar.png'
 import brownCollar from '../../assets/images/popular_products/Brown_collar.png'

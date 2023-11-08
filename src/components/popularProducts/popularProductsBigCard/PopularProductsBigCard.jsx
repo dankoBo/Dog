@@ -1,4 +1,4 @@
-import DetailsLink from '../../interface/detailsLink/DetailsLink'
+import DetailsLink from '../../../interface/detailsLink/DetailsLink'
 import { BigCardContainer, BigCardImage, BigCardDescription, BigCardTitle} from './PopularProductsBigCard.styled'
 
 function PopularProductsBigCard(props) {

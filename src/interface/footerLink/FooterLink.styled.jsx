@@ -8,6 +8,7 @@ const StyledLink = styled.a`
 	font-weight: 400;
 	line-height: normal;
 	opacity: 0.8;
+	text-decoration: none;
 `
 
 export default StyledLink

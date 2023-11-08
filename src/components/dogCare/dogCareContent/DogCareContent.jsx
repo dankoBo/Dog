@@ -1,5 +1,5 @@
-import Button from '../../interface/button/Button'
-import DetailsLink from '../../interface/detailsLink/DetailsLink'
+import Button from '../../../interface/button/Button'
+import DetailsLink from '../../../interface/detailsLink/DetailsLink'
 import { DogCareContentContainer, DogCareChapter, DogCareTitle, DogCareSubtitle, DogCareActions } from './DogCareContent.styled'
 
 function DogCareContent() {

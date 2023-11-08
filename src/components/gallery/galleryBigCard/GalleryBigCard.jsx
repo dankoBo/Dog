@@ -1,5 +1,5 @@
 import GalleryBigCardWrapper from './GalleryBigCard.styled'
-import pinappleCollar from '../../assets/images/gallery/Pinapple_collar.png'
+import pinappleCollar from '../../../assets/images/gallery/Pinapple_collar.png'
 
 function GalleryBigCard() {
 	return (

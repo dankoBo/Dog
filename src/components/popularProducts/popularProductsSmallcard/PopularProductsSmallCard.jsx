@@ -1,5 +1,5 @@
 import { SmallCardContainer, SmallCardImage, SmallCardDescription, SmallCardTitle } from './PopularProductsSmallCard.styled'
-import DetailsLink from '../../interface/detailsLink/DetailsLink'
+import DetailsLink from '../../../interface/detailsLink/DetailsLink'
 
 function PopularProductsSmallCard(props) {
 	return (

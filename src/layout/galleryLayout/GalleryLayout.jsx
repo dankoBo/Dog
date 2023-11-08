@@ -1,4 +1,6 @@
 import { GalleryLayoutWrapper, GalleryTitile, GallerySubtitle, GallerySmallCardsContainer } from './GalleryLayout.styled'
+import GallerySmallCard from '../../components/gallery/gallerySmallCard/GallerySmallCard';
+import GalleryBigCard from '../../components/gallery/galleryBigCard/GalleryBigCard';
 import redCollar from '../../assets/images/gallery/Red_collar.png'
 import blueCollar from '../../assets/images/gallery/Blue_collar.png'
 import flowerCollar from '../../assets/images/gallery/Flower_collar.png'
